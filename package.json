@@ -1,0 +1,21 @@
+{
+  "name": "test-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.6",
+    "apollo-server-cache-redis": "^3.3.1",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "apollo-server-plugin-response-cache": "^3.5.2",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "ioredis": "^5.0.2"
+  }
+}
